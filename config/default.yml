@@ -1,0 +1,21 @@
+
+server:
+  host: 0.0.0.0
+  port: 3001
+  domain: example.com
+
+env:
+  enviroinment: local
+  logLevel: info
+  name: app
+  version: 0.0.0
+
+secret: secret
+
+db:
+  client: mysql
+  connection:
+    host: 127.0.0.1
+    user: root
+    password: !!str 123456
+    database: lrealworld

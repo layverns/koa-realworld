@@ -1,0 +1,20 @@
+{
+  "name": "realworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/bin/server",
+    "db:migrate": "knex migrate:latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "dotenv": "^8.0.0",
+    "js-yaml": "^3.13.1",
+    "knex": "^0.17.6",
+    "koa": "^2.7.0",
+    "mysql": "^2.17.1"
+  }
+}
